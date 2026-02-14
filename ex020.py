@@ -1,4 +1,4 @@
-#Programa que ajuda o professor a sortear a ordem de apresentação dos trabalhos de seus alunos. O programa lê o nome dos quatros alunos e depois dá a lista da ordem sorteada.
+#Programa que sortea a ordem de apresentação dos trabalhos de quatro alunos.
 import random
 n1 = input('Qual o nome do aluno? ')
 n2 = input('Do segundo? ')
