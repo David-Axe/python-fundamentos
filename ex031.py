@@ -12,7 +12,7 @@
 #       7. programa notifica ao usuario o valor total da viagem
 
 
-#README
+#README:
 # Programa: Cálculo de Passagem de Viagem
 
 # Descrição
