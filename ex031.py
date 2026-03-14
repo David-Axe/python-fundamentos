@@ -37,7 +37,7 @@ valor2 = 0.45
 
 if distancia <= 200:
     total = distancia * valor1
-    print(f'A sua viagem de {distancia} km, custará R${total:.2f}')
+    print(f'A sua viagem de {'\033[1;34m'}{distancia}{'\033[m'} km, custará R${'\033[4;31m'}{total:.2f}{'\033[m'}')
 else:
     total = distancia * valor2
-    print(f'A sua viagem de {distancia} km, custará R${total:.2f}')
+    print(f'A sua viagem de {'\033[1;34m'}{distancia}{'\033[m'} km, custará R${'\033[4;31m'}{total:.2f}{'\033[m'}')
