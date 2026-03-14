@@ -33,6 +33,6 @@
 vel = float(input('Quantos km/h estava o seu carro? '))
 if vel > 80:
     multa = (vel - 80) * 7
-    print(f'Você foi multado! Sua multa é de R${multa:.2f}')
+    print(f'Você foi multado! Sua multa é de R${'\033[1;31m'}{multa:.2f}{'\033[m'}')
 else:
-    print('Parabéns! Você não foi multado!')
+    print(f'{'\033[1;32m'}Parabéns! Você não foi multado!{'\033[m'}')
