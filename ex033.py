@@ -26,5 +26,5 @@ if n2 < menor:
 if n3 < menor:
     menor = n3
 
-print(f'Menor: {menor}')
+print(f'Menor: {'\033[7m'}{menor}{'\033[m'}')
 print(f'Maior: {maior}')
