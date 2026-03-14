@@ -1,6 +1,6 @@
 algo= input('Digite algo: ')
-print('O tipo primitivo desse valor é {}'.format(type(algo)))
-print('Só tem espaço? {}'.format(algo.isspace()))
+print('O tipo primitivo desse valor é {}{}{}'.format('\033[1;34;40m', type(algo), '\033[m'))
+print('Só tem espaço? {}{}{}'.format('\033[1;33;45m', algo.isspace(), '\033[m'))
 print('É um numero? {}'.format(algo.isnumeric()))
 print('É alfabético? {}'.format(algo.isalpha()))
 print('É alfanumérico {}'.format(algo.isalnum()))
