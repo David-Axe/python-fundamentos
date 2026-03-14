@@ -24,6 +24,6 @@
 #CODIGO
 n = int(input('Digite um número inteiro: '))
 if n % 2 == 0:
-    print(f'O número {n} é par!')
+    print(f'O número {'\033[1;34;47m'}{n}{'\033[m'} é par!')
 else:
-    print(f'O número {n} é ímpar!')
+    print(f'O número {'\033[1;35m'}{n}{'\033[m'} é ímpar!')
