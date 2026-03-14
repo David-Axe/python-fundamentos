@@ -11,6 +11,6 @@ print('-=-' * 20)
 usuario = int(input('Em que número pensei? '))
 
 if usuario == computador:
-    print('PARABÉNS! Você acertou!')
+    print(f'{'\033[1;32;47m'}PARABÉNS! Você acertou!{'\033[m'}')
 else:
-    print(f'GANHEI! Eu pensei no número {computador} e não no {usuario}.')
+    print(f'{'\033[1;31;47m'}GANHEI! Eu pensei no número {computador} e não no {usuario}.{'\033[m'}')
