@@ -5,6 +5,6 @@
 nome = input('Digite o nome completo de alguém: ')
 nome = nome.title()
 palavras = nome.split()
-print(f'Primeiro: {palavras[0]}')
-print(f'Último: {palavras[-1]}')
+print(f'Primeiro: {'\033[1;7;37m'}{palavras[0]}{'\033[m'}')
+print(f'Último: {'\033[1;31;47m'}{palavras[-1]}{'\033[m'}')
 
