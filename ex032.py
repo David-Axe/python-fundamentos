@@ -14,6 +14,6 @@
 #CODIGO:
 ano = int(input('Digite algum ano para saber se é bissexto: '))
 if (ano % 4 == 0 and ano % 100 != 0) or ano % 400 == 0:
-    print(f'O ano de {ano} é bissexto!')
+    print(f'O ano de {ano} é {'\033[1;33m'}bissexto{'\033[m'}!')
 else:
-    print(f'O ano de {ano} NÃO é bissexto!')
+    print(f'O ano de {ano} {'\033[1;31m'}NÃO{'\033[m'} é bissexto!')
